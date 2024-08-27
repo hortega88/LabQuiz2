@@ -34,7 +34,7 @@ Instructor: Washington Valencia
 	<link rel="shortcut icon" type="image/x-icon"
 		href="https://canvascctb.s3.ca-central-1.amazonaws.com/account_1/attachments/95/CCTB_favicon.ico" />
 
-
+	<script src="js/script.js"></script>
 </head>
 
 <body class="header-scroll-reveal">
@@ -149,8 +149,7 @@ Instructor: Washington Valencia
 
 									<a class="nav-link" href="#" data-bs-toggle="dropdown" aria-haspopup="true"
 										aria-expanded="false" id="mainNavHosting">
-										<h3>Quiz #2 - IST 107 - <span class="text-danger">{{Replace with your Full
-												Name}}</span>
+										<h3>Quiz #2 - IST 107 - <span id="replace_name" class="text-danger">{{Replace with your Full Name}}</span>
 										</h3>
 									</a>
 
@@ -221,8 +220,8 @@ Instructor: Washington Valencia
 							</p><br><br>
 
 							<div class="mt-15 text-muted">
-								<h2>{{Replace with current date}} </h2>
-								<h2>{{Replace with your email}} </h2>
+								<h2 id="replaceDate" >{{Replace with current date}} </h2>
+								<h2 id="replaceEmail" >{{Replace with your email}} </h2>
 							</div>
 
 						</div>
@@ -429,7 +428,7 @@ Instructor: Washington Valencia
 					</div>
 
 
-					<div class="col-12 col-lg-6 mb-5 aos-init aos-animate" data-aos="fade-up" data-aos-delay="0"
+					<div id="listItems" class="col-12 col-lg-6 mb-5 aos-init aos-animate" data-aos="fade-up" data-aos-delay="0"
 						data-aos-offset="0">
 
 						<h2 class="fw-bold mb-5">
